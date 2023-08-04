@@ -1,0 +1,15 @@
+body{
+      /* Set the background image URL */
+      background-image: url("https://c4.wallpaperflare.com/wallpaper/598/482/363/black-black-and-white-anonymous-hackers-wallpaper-preview.jpg");
+
+      /* Adjust background image properties as needed */
+      background-size: cover; /* Adjusts the size of the image to cover the entire body */
+      background-repeat: no-repeat; 
+      color: green;
+
+}
+#data2{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
