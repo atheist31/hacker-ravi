@@ -1,15 +1,42 @@
-body{
-      /* Set the background image URL */
-      background-image: url("https://c4.wallpaperflare.com/wallpaper/598/482/363/black-black-and-white-anonymous-hackers-wallpaper-preview.jpg");
 
-      /* Adjust background image properties as needed */
-      background-size: cover; /* Adjusts the size of the image to cover the entire body */
-      background-repeat: no-repeat; 
-      color: green;
 
+
+
+
+
+
+/* Custom styles for the document */
+body {
+    color:greenyellow;
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/598/482/363/black-black-and-white-anonymous-hackers-wallpaper-preview.jpg");
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
-#data2{
+
+.title {
     text-align: center;
-    font-size: 20px;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    color: brown;
+    margin: 20px 0;
+}
+
+#data2 {
+    margin: 20px;
+    padding: 10px;
+    font-size: 18px;
+    text-align: center;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+    .title {
+        font-size: 36px;
+    }
+
+    #data2 {
+        font-size: 16px;
+        margin: 10px;
+        padding: 5px;
+    }
 }
